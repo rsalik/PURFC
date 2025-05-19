@@ -1,0 +1,212 @@
+@font-face {
+	font-family: 'NibPro';
+	src: url('/fonts/nib/NibPro-Light.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NibPro';
+	src: url('/fonts/nib/NibPro-LightItalic.woff2') format('woff2');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'NibPro';
+	src: url('/fonts/nib/NibPro-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NibPro';
+	src: url('/fonts/nib/NibPro-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'NibPro';
+	src: url('/fonts/nib/NibPro-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NibPro';
+	src: url('/fonts/nib/NibPro-SemiBoldItalic.woff2') format('woff2');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'NibPro';
+	src: url('/fonts/nib/NibPro-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NibPro';
+	src: url('/fonts/nib/NibPro-BoldItalic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'NibPro';
+	src: url('/fonts/nib/NibPro-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NibPro';
+	src: url('/fonts/nib/NibPro-BlackItalic.woff2') format('woff2');
+	font-weight: 900;
+	font-style: italic;
+}
+
+/* TT Autonomous */
+@font-face {
+	font-family: 'Autonomous';
+	src: url('/fonts/autonomous/TT Autonomous Mono Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Autonomous';
+	src: url('/fonts/autonomous/TT Autonomous Mono Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Autonomous';
+	src: url('/fonts/autonomous/TT Autonomous Mono Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Autonomous';
+	src: url('/fonts/autonomous/TT Autonomous Mono Medium Italic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Autonomous';
+	src: url('/fonts/autonomous/TT Autonomous Mono Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Autonomous';
+	src: url('/fonts/autonomous/TT Autonomous Mono Bold Italic.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+/* Alliance Text */
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextLight.otf') format('opentype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextLightItalic.otf') format('opentype');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextRegular.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextItalic.otf') format('opentype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextMedium.otf') format('opentype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextMediumItalic.otf') format('opentype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextSemiBold.otf') format('opentype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextSemiBoldItalic.otf') format('opentype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextBold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextBoldItalic.otf') format('opentype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+  font-family: 'Alliance Text';
+  src: url('/fonts/alliance/Alliance-TextExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alliance Text';
+  src: url('/fonts/alliance/Alliance-TextExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextBlack.otf') format('opentype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Alliance Text';
+	src: url('/fonts/alliance/Alliance-TextBlackItalic.otf') format('opentype');
+	font-weight: 900;
+	font-style: italic;
+}

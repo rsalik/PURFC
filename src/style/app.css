@@ -1,0 +1,11 @@
+@import './fonts.css';
+@import 'tailwindcss';
+
+@theme {
+	--font-serif: 'NibPro', serif;
+	--font-sans: 'Alliance Text', serif;
+	--font-mono: 'Autonomous', monospace;
+
+	/* Colors */
+	--color-pton: #ff4d00;
+}
