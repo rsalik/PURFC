@@ -36,22 +36,23 @@
 <div class="relative flex h-full w-screen items-center justify-center">
 	<div
 		class:text
-		class="title absolute z-10 flex h-full w-full items-center justify-center text-center font-serif text-5xl font-bold text-wrap px-4 text-white md:text-9xl"
+		class="title absolute z-10 -mt-10 flex h-full w-full flex-col items-center justify-center px-16 md:px-5 text-center font-serif text-6xl font-bold text-wrap text-white md:mt-0 md:text-[7vw]"
 	>
-		Princeton Rugby
+		<span class="font-normal italic md:tracking-wide">Princeton University</span>
+		<span class="md:tracking-tight">Rugby Football Club</span>
 	</div>
 	<img class="landing-img" class:text src={imgLanding} alt="Landing" bind:this={img} />
 </div>
 
 <HomePanel src={imgTeam} alt="Team Portrait">
-	<div class="font-serif text-4xl font-semibold">Join Us</div>
+	<div class="font-serif text-4xl font-semibold">New Players</div>
 	<br />
 	<p class="text-lg">
-		We welcome all serious athletes who are looking to play a team oriented, physical sport. Rugby
-		combines many aspects of football, soccer, and basketball. Most importantly, no experience is
-		needed. We have a fall and spring season and welcome new players throughout the year. Come out
-		and give rugby a try. If you do, we know many of you will grow to love the sport and find a
-		welcome home at Princeton as members of the university rugby club.
+		We welcome all serious athletes who are looking to play a team-oriented, physical sport. Rugby
+		combines many aspects of football, soccer, and basketball. We welcome new players throughout
+		both the fall and spring season, and no rugby experience is needed to join. Come out to a
+		practice or two to meet the team and give rugby a try. If you do, we know many of you will grow
+		to love the sport and find a welcome home at Princeton as members of the university Rugby Club.
 
 		<br />
 		<br />
