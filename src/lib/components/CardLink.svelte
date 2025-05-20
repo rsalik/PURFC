@@ -5,7 +5,7 @@
 <a {href} class="m-1">
 	<div
 		style="--img: url({imgSrc})"
-		class="group relative flex h-120 w-72 items-end overflow-hidden rounded-lg p-2 transition-all duration-300 ease-in-out"
+		class="group relative flex w-45 h-45 md:h-120 md:w-72 items-end overflow-hidden rounded-lg p-2 transition-all duration-300 ease-in-out"
 	>
 		<div
 			class="absolute inset-0 bg-[image:var(--img)] bg-cover bg-center bg-no-repeat brightness-90 transition-all group-hover:scale-105"

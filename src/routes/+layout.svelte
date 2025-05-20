@@ -22,9 +22,9 @@
 	<div class="w-full">
 		<img class="w-full" src={imgKoranda} alt="Koranda Cup" />
 	</div>
-	<div class="grid grid-cols-4 gap-2 px-10 py-6 text-2xl md:px-20 lg:grid-cols-5">
+	<div class="grid grid-cols-2 gap-2 px-10 py-6 text-2xl md:px-20 lg:grid-cols-5">
 		<div
-			class="flex items-center justify-center py-2 font-mono text-6xl font-bold italic md:py-0 lg:col-span-2 lg:text-8xl"
+			class="flex items-center justify-center py-2 font-mono font-bold italic md:py-0 col-span-2 text-8xl"
 		>
 			@PURFC
 		</div>
@@ -105,6 +105,11 @@
 				</a>
 			</div>
 		</div>
+	</div>
+	<div class="px-6 text-center text-sm">
+		This organization is open to all Princeton University students interested in supporting our
+		organization's mission, regardless of identity, such as race, sex, ethnicity, national origin,
+		or other protected characteristics.
 	</div>
 	<div class="princeton flex grid-cols-3 flex-col justify-center gap-4 px-10 py-6 md:grid">
 		<!-- svelte-ignore a11y_consider_explicit_label -->

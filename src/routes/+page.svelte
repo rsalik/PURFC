@@ -48,18 +48,18 @@
 		<img loading="lazy" class="landing-img" src={imgLanding} alt="Landing" bind:this={img} />
 	</div>
 
-	<div class="relative flex justify-center overflow-clip p-2">
+	<div class="relative flex flex-wrap justify-center overflow-clip p-2 text-3xl">
 		<CardLink imgSrc={imgFergus} href="/join">
-			<div class="text-5xl">Join</div>
+			<div class="md:text-5xl">Join</div>
 		</CardLink>
 		<CardLink black imgSrc={imgLanding} href="/schedule">
-			<div class="text-4xl text-[2.75rem]">Schedule</div>
+			<div class="md:text-4xl md:text-[2.75rem]">Schedule</div>
 		</CardLink>
 		<CardLink imgSrc={imgTeam} href="/join">
-			<div class="text-5xl">Giving</div>
+			<div class="md:text-5xl">Giving</div>
 		</CardLink>
 		<CardLink black imgSrc={imgLanding} href="/join">
-			<div class="text-5xl">Contact</div>
+			<div class="md:text-5xl">Contact</div>
 		</CardLink>
 	</div>
 </div>
