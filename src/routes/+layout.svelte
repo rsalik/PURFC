@@ -1,8 +1,8 @@
 <script lang="ts">
 	import '../style/app.css';
-	import imgKoranda from '$lib/imgs/koranda-wide.png';
+	import imgKoranda from '$lib/imgs/koranda-wide.webp';
 	import imgPrinceton from '$lib/imgs/princeton-logo-white.svg';
-	import imgCampusRec from '$lib/imgs/campusrec-logo.png';
+	import imgCampusRec from '$lib/imgs/campusrec-logo.webp';
 	import { Icon } from 'svelte-awesome';
 	import facebook from 'svelte-awesome/icons/facebookSquare';
 	import instagram from 'svelte-awesome/icons/instagram';
@@ -20,11 +20,11 @@
 
 <div class="footer w-full bg-black text-white">
 	<div class="w-full">
-		<img src={imgKoranda} alt="Koranda Cup" />
+		<img class="w-full" src={imgKoranda} alt="Koranda Cup" />
 	</div>
-	<div class="grid grid-cols-4 gap-2 px-10 py-6 text-2xl lg:grid-cols-5 md:px-20">
+	<div class="grid grid-cols-4 gap-2 px-10 py-6 text-2xl md:px-20 lg:grid-cols-5">
 		<div
-			class="lg:col-span-2 flex items-center justify-center py-2 font-mono text-6xl lg:text-8xl font-bold italic md:py-0"
+			class="flex items-center justify-center py-2 font-mono text-6xl font-bold italic md:py-0 lg:col-span-2 lg:text-8xl"
 		>
 			@PURFC
 		</div>
@@ -106,10 +106,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="princeton grid-cols-3 flex flex-col justify-center gap-4 px-10 py-6 md:grid">
+	<div class="princeton flex grid-cols-3 flex-col justify-center gap-4 px-10 py-6 md:grid">
+		<!-- svelte-ignore a11y_consider_explicit_label -->
 		<a href="https://www.princeton.edu/">
 			<img class="md:w-50" src={imgPrinceton} alt="Princeton University" />
 		</a>
+		<!-- svelte-ignore a11y_consider_explicit_label -->
 		<a class="flex items-center justify-center" href="https://campusrec.princeton.edu">
 			<img class="md:w-70" src={imgCampusRec} alt="Princeton University" />
 		</a>
